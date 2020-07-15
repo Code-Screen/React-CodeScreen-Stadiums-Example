@@ -13,8 +13,8 @@ class StadiumsService {
 
 StadiumsService.stadiumsEndpointURL = 'https://app.codescreen.dev/api/assessments/stadiums';
 
-// Your API key. Needed to successfully authenticate when calling the stadiums endpoint.
-// This needs to be included in the Authorization header in the request you send to the stadiums endpoint.
-StadiumsService.apiKey = '8c5996d5-fb89-46c9-8821-7063cfbc18b1';
+// Your API token. Needed to successfully authenticate when calling the stadiums endpoint.
+// This needs to be included in the Authorization header (using the Bearer authentication scheme) in the request you send to the stadiums endpoint.
+StadiumsService.apiToken = '8c5996d5-fb89-46c9-8821-7063cfbc18b1';
 
 module.exports.StadiumsService = StadiumsService;
