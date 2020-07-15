@@ -4,6 +4,8 @@ Simple example CodeScreen React assessment that involves querying a REST endpoin
 The CodeScreen Soccer Stadiums API is a service that contains one endpoint,<br>
 GET https://app.codescreen.dev/api/assessments/stadiums, which returns the details of soccer stadiums in a given country. <br>The country is passed in as a query parameter called `country` in the endpoint URL.
 
+For authentication, you need to send your API token in the `Authorization HTTP header` using the [Bearer authentication scheme](https://tools.ietf.org/html/draft-ietf-oauth-v2-bearer-20#section-2.1). Your API token is `8c5996d5-fb89-46c9-8821-7063cfbc18b1`.
+
 When you send an `HTTP GET` request to the endpoint, the response will be a `200 OK`, which includes a body containing a list of stadium data in `JSON` format. 
 <br><br>
 An example response is the following:
